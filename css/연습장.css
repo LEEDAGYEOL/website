@@ -1,0 +1,16 @@
+@charset "utf-8";
+a.link_bt > span {
+    display: none;
+}
+a.indent_bt { 
+    width: 500px;
+    height: 500px;
+    display: block;
+    background: url(/imges/모히또.png) ;
+    text-indent: -9000px;
+    overflow: hidden;
+}
+b{
+    border: 10px 5px 20px 1px solid red;
+    
+}

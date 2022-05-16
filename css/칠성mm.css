@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* 롯데칠성모바일 */
+*{ word-break: keep-all;
+    outline: 1px solid red;
+}
+body{
+    min-width: 100%;
+}
+.inner{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 18px;
+}

@@ -1,0 +1,64 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 1px solid rosybrown;
+}
+:root{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
+ul,li{ list-style: none;}
+a{ text-decoration: none;}
+body{ min-width: 1280px;}
+.global{
+    width: 1280px;
+    margin: 0 auto;
+}
+.global.logo{
+    width: 100%;
+    height: 45px;
+    margin: ;
+}
+.inner{
+    width: 1200px;
+    margin: 1px auto;
+}
+
+.card{
+    position: static;
+    width: 1920px;
+    height: 920px;
+    background: url(/imges/두루누비커버배경.png) no-repeat;
+    margin: 3px auto;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+}
+h1 .suv{
+    color: rgba(255, 255, 255, 0.712);
+}
+
+.left{
+    margin: 0 0 0 35px;
+    display: flex;
+    justify-content: flex-end;
+}
+.header .inner .box1{
+    width: 280px;
+    height: 190px;
+    background: url(/imges/두루누비강화.png) no-repeat;
+    padding: 50px 0 0 0;
+ 
+
+} 
+.themma .inner .box1,.box2,.box3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

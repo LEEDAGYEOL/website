@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* 롯데칠성테블릿 */
+
+*{ word-break: keep-all;
+    outline: 1px solid rosybrown;
+
+}
+body{
+    min-width: 100%
+}
+.inner{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 45px auto 30px;
+    font-weight: bold;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    word-spacing: -1px;
+}
+p{
+    margin: 0;
+    padding: 24px 5% 13px;
+}
+.p01{
+    text-align: left;
+}
+
+section.sec02{
+    height: 800px;
+}
+.group{
+    
+    flex-direction: column;
+}
+section.sec02{
+    padding-bottom: 5px;
+}
+section.sec02 .inner h2 {
+    padding-top: 17px;
+    line-height: 1;
+    margin: 7px 0 7px ;
+}
+section.sec02 .inner .group .box{
+    width: 400px;
+}
+section.sec02 .inner .group .box.one .bg{
+    padding: 140px;
+
+}
+section.sec02 .inner .group .box.two
+section.sec02 .inner .group .box.three,
+{
+    margin: 80px 0 0 0;
+}
+section.sec02 .inner .group .box h3.title {
+    margin: 0;
+    padding: 24px 5% 13px;
+
+}
+section.sec02 .inner .group .box h4.subTitle{
+
+    margin:  0 5%;
+
+}

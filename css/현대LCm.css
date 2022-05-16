@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* 현대LC테블릿 */
+
+*{ outline: 1px solid red;}
+body{min-width: 744px;}
+.sec{width: 744px;
+    height: 563px;}
+.inner{width: 673px;
+width: 446px;}    
+.sec.one .title{font-size: 50px;}
+.sec.one .copy{font-size: 20px;}
+.sec.one .text{font-size: 10px;}
+.sec.one .button {width: 111px;
+height: 31px;
+line-height: 31px;
+margin: 30px auto 0;}
+.sec.two .left{padding: 0 0 30px 0;
+  
+}
+.sec.two .left .product{
+    right: -320px;
+}
+.sec.two .right{width: 744px;
+    height: 907px;
+}
+.sec.two .right .box {
+    margin: 50px 0 0 -180px;
+    text-align: center;
+    width: 448px;
+    height: 442px;
+}
+.sec.two .right .txt1{
+    color: #fff;
+}
+.sec.two .right{padding: 0 415px 744px 907px;}
+/* .sec.three .right .box{
+    background-size: 745px 360px;
+    padding: 5px 0 0 0;
+
+} */
+.sec.three .left .box {
+    width: 745px;
+    height: 360px;
+}
+.sec.three .left .box{
+    
+    background-size: 745px 470px;
+    padding: 5px 5px 5px 5px;
+}
+.sec.three .right{
+   padding: 40px 0 0 0 ; 
+}
+.sec.three .right .txt1{
+    padding: 50px 0 0 0;
+}
+.sec.three .right .box{
+    position: absolute;
+    background-size: 741px 470px;
+    margin: -88px 0 0 -344px;
+}
+
+
+.sec.four{
+background-image: url(/runa/images/crecendo/pattern_01.png), url(/imges/현대엘씨침대마지막.png)  ;
+background-size: 5px 5px, cover;
+
+background-size: 724px 1076px;}
+.sec.four .title{font-size: 35px;
+font-weight: 700;
+color: #FFBFBF;}
+.sec.four .text{width: 448px;
+height: 207px;
+line-height: 25px;
+text-align: center;}
+.sec.four .button{width: 125px;
+height: 45px;
+line-height: 45px;}

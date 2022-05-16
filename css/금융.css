@@ -1,0 +1,152 @@
+@charset "UTF-8" ;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* outline: 1px solid rosybrown; */
+}
+
+:root{ font-family: 'Noto Sans KR', sans-serif; }
+body{ min-width: 1280px;}
+
+.logo .header{
+    background: url(/imges/금융로고.png);
+    background-size: 100% auto;
+    width: 168px;
+    height: 63px;
+    margin: 0 auto;
+}
+.clearfix{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.txt1{
+    margin: 12px auto 100px;
+    background: url(/imges/금융말머리.png);
+    background-size: 100% auto;
+    height: 40px;
+    width: 527px;
+}
+
+.inner > h1 div::before{
+    content: "";
+    position: absolute;
+    right: 38px;
+}
+
+.box{
+    width: 290px;
+    height: 230px;
+    display: block;
+    float: left;
+    margin: 0 0 20px;
+    padding: 20px;
+    color: #fff;
+}
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+p{
+    margin: 22px 0 0 0;
+    font-weight: 12px;
+    overflow: hidden;
+    word-break: keep-all;
+}
+.date{
+    margin: 20px 0 5px 0;
+    color: #fff;
+    display: block;
+}
+button{
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: none;
+    display: block;
+    cursor: pointer;
+}
+.button:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+.box.b01{
+    background: url(/imges/금융1.png) 50% 50% no-repeat ;
+    background-size: cover;
+}
+.box.b02{
+    background: rgb(238, 187, 187);
+}
+.box.b03{
+    padding: 48px 20px 0;
+    margin: 0 20px 20px;
+    background: #DFDFDF;
+}
+.box.b03 p,
+.box.b11 p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(55, 182, 144);
+    margin: 0;
+    text-align: center;
+   
+}
+.box.b04{
+    background: url(/imges/금융2.png);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.box.b05,
+.box.b09{
+    background:rgb(238, 187, 187);
+    color: #fff;
+}
+.box.b05 span.date,
+.box.b09 span.date{
+    color: #fff;
+}
+.box.b05 button,
+.box.b09 button{
+    border: 1px solid #fff;
+    color: #fff;
+    background: rgb(238, 187, 187);
+}
+.box.b05 button:hover,
+.box.b09 button:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+.box.b06{
+    width: 600px;
+    margin: 0 20px 20px 0;
+    background: url(/imges/금융_가운데3.png);
+    background-size: cover;
+}
+.box.b07{
+    background: url(/imges/금융여자사진.png);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.box.b08{
+    background: url(/imges/금융4.png);
+    background-size: cover;
+}
+.box.b10{
+    margin: 0 20px 20px ;
+    background: url(/imges/금융8.png);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: screen;
+    background-size: cover;
+}
+.box.b11{    
+    background: #DFDFDF;
+    padding-top: 70px;
+    
+}
